@@ -1,0 +1,102 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/figtree-v5-latin-500.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/figtree-v5-latin-800.woff2') format('woff2');
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: 'Figtree', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4d04e;
+    font-weight: 500;
+    line-height: 24px;
+    color: #7f7f7f;
+    gap: 24px;
+}
+.card-box {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    background-color: #fff;
+    width: 384px;
+    border: 1px solid #111;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px #000;
+    padding: 24px;
+}
+.card-image {
+    margin-bottom: 24px;
+}
+.card-badge {
+    background-color: #f4d04e;
+    padding: 4px 21px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.card-badge-text {
+    color: #111;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+}
+.card-published-data {
+    widows: 100%;
+    margin-bottom: 12px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #111;
+}
+.card-title {
+    margin-bottom: 12px;
+}
+.card-title-link {
+    color: #111;
+    font-weight: 800;
+    font-style: 24px;
+    line-height: 36px;
+}
+.card-title-link:hover {
+    color: #f4d04e;
+}
+.card-description {
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.card-author {
+    display: flex;
+}
+.card-author-name {
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+    color: #111;
+    display: flex;align-items: center;
+    margin-left: 12px;
+}
